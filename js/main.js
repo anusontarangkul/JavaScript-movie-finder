@@ -29,3 +29,9 @@ function getMovies(searchText) {
             console.log(err)
         })
 }
+
+function movieSelected(id) {
+    sessionStorage.setItem('movieId', id);
+    windeow.location = "movie.html";
+    return false;
+}
