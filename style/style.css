@@ -1,6 +1,10 @@
+#searchText {
+  margin-bottom: 20px;
+}
+
 #movies img,
 #movie img {
-  width: 100%;
+  width: auto;
 }
 
 @media (min-width: 960px) {
@@ -11,4 +15,8 @@
   #movies .col-md-3 img {
     height: 240px;
   }
+}
+
+.title {
+  margin-top: 5px;
 }
