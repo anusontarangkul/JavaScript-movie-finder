@@ -20,3 +20,14 @@
 .title {
   margin-top: 5px;
 }
+
+.btn-details {
+  width: 140px;
+  height: 40px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.plot {
+  margin-top: 10px;
+}
